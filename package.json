@@ -1,7 +1,7 @@
 {
-  "name": "glamor",
-  "version": "2.20.40",
-  "description": "inline css for component systems",
+  "name": "glamor-fixes",
+  "version": "2.20.41",
+  "description": "inline css for component systems fork of glamor with some extra fixes",
   "main": "lib/index.js",
   "typings": "index.d.ts",
   "files": [
@@ -85,7 +85,7 @@
   "author": "Sunil Pai <threepointone@gmail.com>",
   "homepage": "https://github.com/threepointone/glamor",
   "license": "MIT",
-  "repository": "https://github.com/threepointone/glamor",
+  "repository": "https://github.com/rasmusvhansen/glamor/",
   "keywords": [
     "css",
     "inline"

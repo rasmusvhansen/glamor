@@ -49,7 +49,7 @@ export function fallbacks(node) {
 let contentValues = ['normal', 'none', 'counter','open-quote','close-quote','no-open-quote','no-close-quote','initial','inherit']
 
 export function contentWrap(node){
-  if(node.style.content){
+  if(node.style.content != null){
     let cont = node.style.content
     if(contentValues.indexOf(cont) >=0){
       return node
